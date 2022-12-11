@@ -1,0 +1,172 @@
+TESTE PRÁTICO
+
+1 - Sobre programação, marque a alternativa que representa linguagens de programação:
+RESPOSTA   a) C#, Ruby, C, Java
+
+
+
+2 - Sobre programação, responda qual a alternativa correta:
+I. IF, ELSE, CASE e FOR, WHILE são estruturas de repetição e decisão respectivamente
+II. Uma classe é formada por atributos e métodos.
+III. Para utilizar um método declarado como estático em uma determinada classe precisasse obrigatoriamente instanciar um objeto desta classe.
+
+RESPOSTA   d) Apenas a II,III são verdadeiras
+
+
+
+3 - Sobre programação, qual o valor de ‘a’? marque a alternativa correta:
+
+a = 10						TESTE DE MESA				
+i = 0							Variáveis a = 10  i = 0
+	while (i < 10)				
+		while (i < 10)				i		a
+			a = a +1 			   	0		11
+			i = i +1			   	1		12
+		end while 					2		13
+	end while						3		14
+								4		15
+								5		16
+								6		17
+								7		18
+								8		19
+								9		20
+								10				
+
+RESPOSTA   b) 20	
+
+
+
+4 - Sobre programação, qual o valor de ‘a’? marque a alternativa correta:
+
+a = 0									TESTE DE MESA						
+x = 0									Variáveis a = 0  x = 0  i   
+	for (i = 0, i < 10, i++)
+		while (x < 5)					a		x		i
+			x = x + 1 					1		1		0
+			a = a + 1					2		2			
+		end while 						3		3	
+		x= 0							4		4	
+	end for							5		5								
+											0		
+RESPOSTA   e) 50											1
+
+									6		1		
+									7		2
+									8		3
+									9		4
+									10		5
+											0
+													2
+									11		1		
+									12		2
+									13		3
+									14		4
+									15		5
+											0
+													3
+									16		1		
+									17		2
+									18		3
+									19		4
+									20		5
+											0
+													4				
+									21		1		
+									22		2
+									23		3
+									24		4
+									25		5
+											0
+													5				
+									26		1		
+									27		2
+									28		3
+									29		4
+									30		5
+											0
+													6				
+									31		1		
+									32		2
+									33		3
+									34		4
+									35		5
+											0
+													7				
+									36		1		
+									37		2
+									38		3
+									39		4
+									40		5
+											0
+													8				
+									41		1		
+									42		2
+									43		3
+									44		4
+									45		5
+											0
+													9				
+									46		1		
+									47		2
+									48		3
+									49		4
+									450		5
+											0
+													10	
+
+5 - Sobre programação, marque a alternativa correta: 
+x = 5
+function calcula(x)
+	if x > 1
+		a = x - 1
+		return x * calcula(a) 
+	else
+		return 1
+ 	end
+
+end
+imprimir calcula(x)
+
+RESPOSTA
+
+
+6 - Sobre programação, responda como podemos classificar a lógica utilizada no algoritmo da questão 5
+RESPOSTA   b) aritmética
+
+
+
+
+7 - O que consiste em um CRUD?
+
+RESPOSTA 
+CRUD consiste em quatro operações básicas para gerenciar elementos de dados persistentes, especialmente de dados relacionais e NoSQL :
+C: Creade (criação)
+R: Read (leitura)
+U: Update (atualização) 
+D: Delete (exclusão)
+Cabe ressaltar que tanto o profissional de front-end quanto back-end  faz uso do CRUD, bem como o CRUD foi utilizado no teste prático do 11 ao 18.
+
+
+
+8 - O que é front-end? Cite algumas linguagens pertencentes a esse grupo. 
+
+RESPOSTA 
+É a parte responsável por criar os componentes visuais e funcionais de uma aplicação, geralmente pré definidas pela equipe de Design. 
+Linguagens utilizadas: JavaScript, Html, css, typescript.
+
+
+
+9 - O que é back-end? Cite algumas linguagens pertencentes a esse grupo.
+
+RESPOSTA
+É responsável pela parte lógica da aplicação, desenvolvendo API's, cuidando do acesso ao banco de dados e da segurança das informações. 
+Linguagens utilizadas: Java, Python, C#, PHP
+
+
+19 - O que é Git? Para que serve?
+
+RESPOSTA 
+É um software  de controle de versão, portanto, rastreia e gerencia as alterações de um código além de ser um sistema distribuído,
+possibilita trabalhar off-line pois permite repositório loal (com todas as versões do código/software), favorecendo o 
+compartilhamento/sicronização/alterações feitas para o servidor remoto.
+

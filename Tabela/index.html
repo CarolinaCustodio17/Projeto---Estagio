@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto javascript</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+   
+    <script src="js/script1.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>TRANSFORME DADOS EM TABELA</h1>
+    </header>
+
+    <main>
+        <div class="title">
+            <h2>Crie sua Tabela</h2>
+            <span>Rápido e prático, basta inserir as informações:</span>
+        </div>
+
+        <div class="card">
+            <div class="lineInput">
+                <label>Nome</label>
+                <input type="text" id="nome" placeholder="Nome"> 
+            </div>
+
+            <div class="lineInput">
+                <label>Idade</label>
+                <input type="text" id="idade" placeholder="Idade"> 
+            </div>
+
+            <button onclick="cadastro.adicionar()" id.botao1>Adicionar</button>
+            <button onclick="cadastro.limpar()">Limpar</button>
+        </div>
+
+        <div class="content">
+            <table border="1">
+                <thead>
+                    <th class="center">Linha</th>
+                    <th class="center">Nome</th>
+                    <th class="center">Idade</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+    </main> 
+</body>
+</html>

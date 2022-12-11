@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+}
+
+
+body {
+
+    font-family: 'Roboto', sem serifa;
+    background-color: rgb(240,236,244);
+}
+
+header {
+    background-color: rgb(40,52,68);
+    padding: 20px;
+    color: rgb(240,236,244);
+    text-align: center;
+}
+
+main {
+    padding: 30px 50px;
+}
+
+.card {
+    background-color: rgb(240,236,244);
+    border: 2px;
+    margin: 18px;
+    width: 20%;
+}
+
+.lineInput {
+    display: grid;
+    margin-bottom: 12px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid rgb(104,132,148);
+    border-radius: 3px;
+    outline: 0;
+}
+
+button {
+    border: 0px;
+    padding: 12px;
+    outline: 0;
+    background-color:rgb(104,132,148);
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0,3s;
+}
+
+button:hover {
+    background-color:rgb(40,52,68);
+}
+
+.content {
+    margin: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solidr rgb(104,132,148);
+    width: 70%;  
+}
+
+table th {
+    background-color: rgb(104,132,148);
+    color: rgb(240,236,244);
+    
+}
+
+table th, td {
+    border: 1px solidr rgb(40,52,68);
+    padding: 1px 5px;
+    text-align: left;  
+}
+
+table td img {
+    width: 22px;
+}
+
+.center {
+    text-align: center;
+}
+
+

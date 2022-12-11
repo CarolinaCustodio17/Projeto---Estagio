@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função Números Pares</title>
+</head>
+
+<script>
+    
+function confere () {
+    var num = document.getElementById("numero").value;
+    var int_num = Number(num);
+
+
+    if(int_num %2 == 0) {
+        alert("número par");
+    } 
+
+    else {
+        alert("número ímpar");
+    }
+}
+
+</script>
+
+<body>
+
+    <input type="text" id="numero">
+    <button onclick="confere();">Verifica</button>
+     
+</body>
+</html>
